@@ -4,8 +4,8 @@ const imageContainer = document.getElementById("imageContainer");
 const weddingImage = document.getElementById("weddingImage");
 
 fadeInButton.addEventListener("click", () => {
-    imageContainer.style.opacity = "1";
-    weddingImage.classList.add("visible");
+            // Afficher l'image en augmentant l'opacité progressivement
+  imageContainer.style.opacity = "1";       
 });
 
 noButton.addEventListener("click", () => {
