@@ -30,8 +30,5 @@ button {
     cursor: pointer;
 }
 
-#weddingImage {
-    margin-top: 50px;
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
+
 
