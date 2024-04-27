@@ -42,14 +42,4 @@ button {
     margin-top: 50px;
     opacity: 0;
     transition: opacity 1s ease-in-out;
-}
 
-#weddingImage {
-    max-width: 100%;
-    height: auto;
-    visibility: hidden;
-}
-
-.visible {
-    visibility: visible;
-}
