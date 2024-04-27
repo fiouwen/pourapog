@@ -1,8 +1,10 @@
 const yesButton = document.getElementById("yesButton");
 const noButton = document.getElementById("noButton");
-const chatImage = document.getElementById("chatImage");
+const imageContainer = document.getElementById("imageContainer");
+const weddingImage = document.getElementById("weddingImage");
 
 yesButton.addEventListener("click", () => {
+    imageContainer.style.opacity = "1";
     weddingImage.classList.add("visible");
 });
 
