@@ -37,16 +37,14 @@ button {
     margin: 0 10px;
     cursor: pointer;
 }
-;
+
+#imageContainer {
+    margin-top: 50px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
 }
 
-#buttons {
-    margin-top: 20px;
-}
-
-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    margin: 0 10px;
-    cursor: pointer;
+#weddingImage {
+    max-width: 100%;
+    height: auto;
 }
