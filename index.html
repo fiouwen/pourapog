@@ -5,19 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JTM APOG</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        #imageContainer {
+            margin-top: 50px;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+        #fadeInButton {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
         <h1>Question : Veux tu me marier ?</h1>
         <div id="buttons">
-            <button id="yesButton">Oui</button>
+            <button id="fadeInButton">Oui</button>
             <button id="noButton">Non</button>
-        </div>
-        <div id="imageContainer">
-            <img src="mariage.jpg" alt="Image de notre mariage" id="weddingImage">
-        </div>
+       <div id="imageContainer">
+        <img src="mariage.jpg" alt="Image mariage" id="weddingImage">
     </div>
 
+    <script>
+        const fadeInButton = document.getElementById("fadeInButton");
+        const imageContainer = document.getElementById("imageContainer");
+
+        fadeInButton.addEventListener("click", () => {
+            // Afficher l'image en augmentant l'opacité progressivement
+            imageContainer.style.opacity = "1";
+        });
+        
     <script src="script.js"></script>
 </body>
 </html>
